@@ -68,7 +68,7 @@ async function carregarDados() {
 
         const acimaDaMedia = diasFaturados.filter((dia) => dia.valor > mediaFaturamento).length;
 
-        alert(`O menor faturamento foi de ${menorFaturamento}, ou maior de ${maiorFaturamento}, e a quantidade de dias acima da média foram de ${acimaDaMedia}`)
+        alert(`O menor faturamento foi de ${menorFaturamento}, o maior de ${maiorFaturamento}, e a quantidade de dias acima da média foram de ${acimaDaMedia}`)
     } catch (err) {
         console.error(err);
     }
